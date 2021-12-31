@@ -8,6 +8,18 @@ The `api` directory contains a C# .NET 6 Web API application which provides a si
 
 The `web` directory contains a simple React + MUI + vite + valtio application which demonstrates how the application state management with valtio works.
 
+## The Tour
+
+The interesting stuff happens inside of the following files:
+
+|File|Description|
+|---|---|
+|`web/src/store/AppState.ts`|This file contains the application state.|
+|`web/src/model/Company.ts`|This file contains model class for a `Company`.|
+|`web/src/model/Employee.ts`|This file contains model class for an `Employee`.|
+|`web/src/components/CompanyGenerator.ts`|This file contains the component that displays the `Company` instances.|
+|`web/src/components/EmployeeGenerator.ts`|This file contains the component that displays the `Employee` instances.|
+
 ## Running the Sample
 
 To run the web API:
