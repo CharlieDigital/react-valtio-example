@@ -2,6 +2,8 @@
 
 This repo contains a sample application of working with application state management using valtio.
 
+See this article for a deeper dive: https://chrlschn.medium.com/magical-experiments-in-react-state-with-valtio-2b40cf159120
+
 ## Structure
 
 The `api` directory contains a C# .NET 6 Web API application which provides a simple endpoint that returns a random salary amount.  It is not necessary to run this part if you don't want to use it; it only exists to understand how valtio works with remote service calls and how to update state after retrieving results from a service call.
